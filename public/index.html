@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO APP</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>TO-DO APP</h1>
+    <div class="container">
+        <form action="/addtodo" method="post">
+            <input type="text" name="newtask" id="newtask">
+            <button type="submit" id="addtask">Add Task</button>
+        </form>
+    </div>
+    <div id="taskList"></div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

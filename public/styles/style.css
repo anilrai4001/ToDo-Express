@@ -1,0 +1,14 @@
+li{
+    /* background-color: #e0dedecc; */
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+span{
+    flex-grow: 1;
+}
+
+li:first-child button.up, li:last-child button.down{
+    visibility: hidden;
+}
